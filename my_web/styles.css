@@ -1,0 +1,50 @@
+body {
+    background-color: #3E3737;
+    color: #FFFFFF;
+    margin: 20px;
+    font-family: serif;
+    text-align: center;
+
+}
+ul {
+  text-align: center;
+  list-style-position: inside;
+}
+
+h1,h2,h3 {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: sans-serif;
+}
+.tarjetas {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.tarjeta {
+  background-color: #1b0e01;
+  padding: 15px;
+  border-radius: 8px;
+}
+.tarjeta:hover {
+  background-color: #12063f;
+  cursor: pointer;
+  transform: translateY(+3px);
+}
+.grilla {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.celda {
+  background-color: #1b0e01;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;      
+}
+.celda:hover {
+  background-color: #12063f;
+  cursor: pointer;
+  transform: translateY(-3px);
+}
